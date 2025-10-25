@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Protofolio-Maker/static/css/main.ef78f744.css",
-    "main.js": "/Protofolio-Maker/static/js/main.f103be20.js",
+    "main.js": "/Protofolio-Maker/static/js/main.0733e55a.js",
     "static/js/453.3804d88f.chunk.js": "/Protofolio-Maker/static/js/453.3804d88f.chunk.js",
     "index.html": "/Protofolio-Maker/index.html",
     "main.ef78f744.css.map": "/Protofolio-Maker/static/css/main.ef78f744.css.map",
-    "main.f103be20.js.map": "/Protofolio-Maker/static/js/main.f103be20.js.map",
+    "main.0733e55a.js.map": "/Protofolio-Maker/static/js/main.0733e55a.js.map",
     "453.3804d88f.chunk.js.map": "/Protofolio-Maker/static/js/453.3804d88f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef78f744.css",
-    "static/js/main.f103be20.js"
+    "static/js/main.0733e55a.js"
   ]
 }
