@@ -1,7 +1,10 @@
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
+  const navigate = useNavigate();
+
   return (
     <footer className="footer">
       <div className="footer-content">
@@ -19,10 +22,10 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="/home">Home</a></li>
-            <li><a href="/templates">Templates</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/portfolio-bot">Create Portfolio</a></li>
+            <li><Link to="/home">Home</Link></li>
+            <li><Link to="/templates">Templates</Link></li>
+            <li><Link to="/services">Services</Link></li>
+            <li><Link to="/portfolio-bot">Create Portfolio</Link></li>
           </ul>
         </div>
 
@@ -45,7 +48,7 @@ const Footer = () => {
           </div>
           <button 
             className="footer-cta"
-            onClick={() => window.location.href = '/portfolio-bot'}
+            onClick={() => navigate('/portfolio-bot')}
           >
             Get Started
           </button>

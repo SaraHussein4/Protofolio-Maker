@@ -22,7 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://abdelhamied-zoair.github.io/portfoliomaker",
+  "homepage": "https://sarahussein4.github.io/Protofolio-Maker",
   "eslintConfig": {
     "extends": [
       "react-app",
